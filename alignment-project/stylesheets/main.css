@@ -1,0 +1,179 @@
+/* line 1, ../alignment-project/stylesheets/main.css.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Base */
+/* line 6, ../alignment-project/stylesheets/main.css.scss */
+html {
+  font-size: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 12, ../alignment-project/stylesheets/main.css.scss */
+body {
+  font: normal 100% "adobe caslon pro";
+  padding: 0 0 3rem 0; }
+
+/* line 17, ../alignment-project/stylesheets/main.css.scss */
+h1 {
+  color: #333;
+  display: inline-block;
+  font: 700 14rem "HelveticaNeue-CondensedBlack";
+  letter-spacing: 1rem;
+  line-height: 220px;
+  text-transform: uppercase; }
+
+/* line 26, ../alignment-project/stylesheets/main.css.scss */
+blockquote {
+  float: left;
+  margin-left: 3rem;
+  text-align: center;
+  width: 300px; }
+  /* line 31, ../alignment-project/stylesheets/main.css.scss */
+  blockquote p {
+    font: 400 1.2rem "HelveticaNeue-CondensedBold";
+    margin: 0; }
+    /* line 34, ../alignment-project/stylesheets/main.css.scss */
+    blockquote p:after {
+      background: #000;
+      content: "";
+      display: block;
+      height: 3px;
+      margin: 1rem auto;
+      width: 100px; }
+
+/* line 45, ../alignment-project/stylesheets/main.css.scss */
+figure {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0 auto;
+  width: 630px; }
+  /* line 50, ../alignment-project/stylesheets/main.css.scss */
+  figure img {
+    margin-right: 1rem; }
+
+/* line 56, ../alignment-project/stylesheets/main.css.scss */
+figcaption p {
+  margin: 0; }
+
+/* line 61, ../alignment-project/stylesheets/main.css.scss */
+cite {
+  display: block;
+  font: 400 1.3rem "adobe caslon pro";
+  font-style: italic;
+  margin: 0.5rem 0 0 0; }
+
+/* line 68, ../alignment-project/stylesheets/main.css.scss */
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-top: 3rem; }
+
+/* line 75, ../alignment-project/stylesheets/main.css.scss */
+section {
+  width: 550px;
+  margin: 0 0 0 9.5rem; }
+  /* line 78, ../alignment-project/stylesheets/main.css.scss */
+  section.border {
+    border-top: 10px solid #333;
+    padding: 3rem 0 0 0; }
+  /* line 82, ../alignment-project/stylesheets/main.css.scss */
+  section p:first-child {
+    margin-top: 0; }
+
+/* line 87, ../alignment-project/stylesheets/main.css.scss */
+#guide {
+  color: #9dd45c;
+  cursor: pointer;
+  font-size: 30px;
+  position: fixed;
+  right: 10px;
+  top: 10px; }
+
+/* line 99, ../alignment-project/stylesheets/main.css.scss */
+.column {
+  float: left; }
+
+/* line 103, ../alignment-project/stylesheets/main.css.scss */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  width: 100%; }
+
+/* line 110, ../alignment-project/stylesheets/main.css.scss */
+.row {
+  display: block;
+  padding: 2.5rem 0; }
+  /* line 113, ../alignment-project/stylesheets/main.css.scss */
+  .row.no-padding-top {
+    padding: 0 0 2.5rem 0; }
+  /* line 116, ../alignment-project/stylesheets/main.css.scss */
+  .row.no-padding {
+    padding: 0; }
+
+/* line 121, ../alignment-project/stylesheets/main.css.scss */
+.overlay {
+  display: none; }
+
+/* line 125, ../alignment-project/stylesheets/main.css.scss */
+.vertical-gradient {
+  background-image: -o-linear-gradient(bottom, red 0%, #ff3a3a 50%);
+  background-image: -moz-linear-gradient(bottom, red 0%, #ff3a3a 50%);
+  background-image: -webkit-linear-gradient(bottom, red 0%, #ff3a3a 50%);
+  background-image: -ms-linear-gradient(bottom, red 0%, #ff3a3a 50%);
+  background-image: linear-gradient(to bottom, #ff0000 0%, #ff3a3a 50%); }
+
+/* line 133, ../alignment-project/stylesheets/main.css.scss */
+.horizontal-gradient {
+  background-image: -o-linear-gradient(right, red 0%, #ff3a3a 50%);
+  background-image: -moz-linear-gradient(right, red 0%, #ff3a3a 50%);
+  background-image: -webkit-linear-gradient(right, red 0%, #ff3a3a 50%);
+  background-image: -ms-linear-gradient(right, red 0%, #ff3a3a 50%);
+  background-image: linear-gradient(to right, #ff0000 0%, #ff3a3a 50%); }
+
+/* line 141, ../alignment-project/stylesheets/main.css.scss */
+.first, .second {
+  opacity: 0.5;
+  position: absolute;
+  width: 40px; }
+
+/* line 147, ../alignment-project/stylesheets/main.css.scss */
+.third, .fourth {
+  opacity: 0.5;
+  position: absolute;
+  height: 40px; }
+
+/* line 153, ../alignment-project/stylesheets/main.css.scss */
+.first {
+  height: 1904px;
+  left: 130px;
+  top: 62px; }
+
+/* line 159, ../alignment-project/stylesheets/main.css.scss */
+.second {
+  height: 285px;
+  left: 879px;
+  top: 478px; }
+
+/* line 165, ../alignment-project/stylesheets/main.css.scss */
+.third {
+  left: 285px;
+  top: 970px;
+  width: 630px; }
+
+/* Clearfix */
+/* line 173, ../alignment-project/stylesheets/main.css.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 178, ../alignment-project/stylesheets/main.css.scss */
+.cf:after {
+  clear: both; }

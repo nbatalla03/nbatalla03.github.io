@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2014-06-16T12:44:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Have a Process</title>
+    <link rel="alternate" href="http://blog.url.com/general/have-a-process.html"/>
+    <id>http://blog.url.com/general/have-a-process.html</id>
+    <published>2014-06-16T12:44:00Z</published>
+    <updated>2014-10-28T15:08:47-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I can't stress enough that having a process can make or break project. As my apprenticeship here at 8th Light draws to a close, I have a heightened sense of responsibility for the projects I tackle. Clients look to us for our expertise, and it is our responsibility to exercise that expertise in a timely manner, a great way to do that is by having a process.&lt;/p&gt;
+
+&lt;p&gt;If you're anything like me, you like to jump into the bells and whistle of a project, the "looks", in simpler terms. The problem with this approach is you neglect the very important steps of defining a problem to tackle. By jumping head first into the looks you don't have a clear path, this causes a lot of backtracking as you try solve design problems on the "fly", which I assure you leads to frustration, and that frustration leads to wasted time. Not good.&lt;/p&gt;
+
+&lt;h4&gt;The How&lt;/h4&gt;
+
+&lt;p&gt;I want to make clear that the process I use is what fits me and my work style. The important take away here is to &lt;strong&gt;have&lt;/strong&gt; a process. There are a ton of resources out there that cover processes in greater detail, I recommend &lt;a href="http://www.amazon.com/Responsive-Design-Workflow-Stephen-Hay/dp/0321887867"&gt;Responsive Design Workflow&lt;/a&gt; by Stephen Hay, keep in mind that you should never treat anyone's process as gospel, learn and apply what makes sense to you.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Pen and Paper&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Having an art background, nothing quite replaces the feel of pen to paper. I actually recommend using a marker, preferably one with a thick nib so you can't get too detailed with it. The reasoning behind this is that you focus on solving a design problem rather than fiddling around with the minute details, this also gives you the flexibility you need to quickly put down your ideas. If you're thinking couldn't we just do this in a wire framing tool like Balsamiq, the simple answer would be it gives us too much detail, the pen and paper phase is to get your ideas down unrestricted by the details that a wire framing tool provides.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Wireframing&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After I have a few good sketches of layouts I believe will work, I'll jump into a wire framing tool. Personally I use Balsamiq, it isn't important what software you use so as long as you're familiar with the tools that it won't slow you down. The purpose of using a wire framing tool is to be able to get a more "real" feel of how the elements of your design will work with one another. Wireframes are fluid, software like Balsamiq allows you to easily make changes before you apply the finer details.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Coding&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There has been a growing popularity with using code to wireframe, personally I'm not quite there yet. The idea is to quickly lay down code markup so you can experience your design solution in it's native environment. Keep in mind you are coding the structure of your design solution and keeping it simple, don't even think about adding drop shadows. You make adjustments along the way and work towards a more polished version with each iteration.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Closing&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The great thing about UX is it's constantly changing, what we deem good practice today may be considered obsolete tomorrow. Keeping a flexible and open mind to new processes while continuing to refine your current process will serve you well. While I will always recommend trying new things, take the things you learn with a grain of salt, be judicious in what you add into your current process, not everything you read will be a good fit.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Inspiration</title>
+    <link rel="alternate" href="http://blog.url.com/general/inspiration.html"/>
+    <id>http://blog.url.com/general/inspiration.html</id>
+    <published>2014-05-15T20:10:00Z</published>
+    <updated>2014-10-28T15:08:47-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Wouldn't it be cool if inspiration was a switch you could just turn on whenever you needed it? That sounds like the opening pitch to an amazing product, unfortunately I don't think such a product exists, at least not to my knowledge.&lt;/p&gt;
+
+&lt;p&gt;I would venture to say that a web designer experiences some sort of inspiration paralysis regularly. I can certainly attest to being in the unfortunate position of being stuck in various stages of projects I have worked on, unsure of what direction to head towards. While I haven't created the "inspiration on" pill yet, I have a few tips that have served me well during my inspirational slumps.&lt;/p&gt;
+
+&lt;h4&gt;Read&lt;/h4&gt;
+
+&lt;p&gt;I can't comment on the effectiveness of reading fiction in drawing inspiration, so I'll recommended you stick to reading books within a similar vein as web design. You can be liberal with the similarities, in fact I encourage you to pick up a javascript book if you haven't already done so, they don't all have to be about web design.&lt;/p&gt;
+
+&lt;p&gt;Exposing yourself to different things broadens your perspective, it helps to connect the dots. It's through this process of learning something new, that a spark of inspiration pops into my periphery. While the things I learn isn't always applicable, it usually leads to something that is. Reading also better equips you for the future, you never know when you may run into a design problem that will be solved by something you've read.&lt;/p&gt;
+
+&lt;h4&gt;Look at Other Sites&lt;/h4&gt;
+
+&lt;p&gt;I'm a big fan of looking at gallery sites like bestwebgallery.com, webcreme.com, thebestdesign.com, and a handful of others. The thing to keep in mind while looking at other sites isn't to simply marvel at how good the site looks, but to take mental notes on elements that solves a design problem similar to one that you have to solve on your project.&lt;/p&gt;
+
+&lt;p&gt;Expand your source, don't draw all your inspiration from one site. By drawing inspiration from various sites, you avoid having a site that looks too similar, since you are integrating various design solutions. A quote from Picasso comes to mind, "Good artists copy, great artists steal."&lt;/p&gt;
+
+&lt;h4&gt;Look Outside&lt;/h4&gt;
+
+&lt;p&gt;While I personally believe that there isn't anything truly original anymore, that doesn't mean we can't innovate. I believe the best way to innovate is to look for inspiration outside the medium you work in.&lt;/p&gt;
+
+&lt;p&gt;While it makes sense to look at gallery sites to draw inspiration from, this can limit you. It's especially because we are web designers, that we should look outside the mediums which we are comfortable with. Mediums such as painting, print, photography, etc... are great places to look for inspiration that is outside of where we normally look.&lt;/p&gt;
+
+&lt;h4&gt;Stay Excited&lt;/h4&gt;
+
+&lt;p&gt;I still remember the first time I made a website during Geocities' prominence. The excitement I felt when I learned I could meld art and technology together is something that still exists today. I feel extremely lucky to be  in an industry that is constantly changing and renewing my excitement year after year. By staying excited you will read that new book on some new technology, and continue to look at other sites that continue to innovate, and be compelled to look outside to innovate yourself.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Alignment</title>
+    <link rel="alternate" href="http://blog.url.com/general/alignment.html"/>
+    <id>http://blog.url.com/general/alignment.html</id>
+    <published>2014-05-05T16:30:00Z</published>
+    <updated>2014-10-28T15:08:47-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Alignment is...  important. &lt;a href="../alignment-project/"&gt;Clicky&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Side Projects</title>
+    <link rel="alternate" href="http://blog.url.com/side-projects.html"/>
+    <id>http://blog.url.com/side-projects.html</id>
+    <published>2014-04-28T16:51:00Z</published>
+    <updated>2014-10-28T15:08:47-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;For as long as I can remember, I have always tinkered. Whether its opening up my remote control car or looking at source code. I have always enjoyed looking under the hood to get a better idea of how things worked. It's this propensity to break things apart that has lead me to web development, and I believe is a characteristic that will lead to a successful web development career.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately it isn't a good idea to break things in production. This is where side projects come in. I want to point out that a side project doesn't have to be anything big, it can be small, it also doesn't have to be something you make, it can simply be something you want to learn.&lt;/p&gt;
+
+&lt;p&gt;There are various benefits to starting a side project. The following list is far from exhaustive, but these are benefits I've personally observed from my side project exploits.&lt;/p&gt;
+
+&lt;h4&gt;Expand Skills&lt;/h4&gt;
+
+&lt;p&gt;I want to make clear that I believe your skills will expand regardless of the complexity of your side project. On that note, I challenge you to implement something that will cause you frustration. I truly believe the fastest way to expand your skills is to tackle something slightly above your current level.&lt;/p&gt;
+
+&lt;p&gt;I relate this process to building muscle. In order to build muscle you have to put enough stress on your muscles to cause fatigue. Repeat this process enough and you will build muscle. Admittedly, this is simplified, but it gets the point I across, I hope :).&lt;/p&gt;
+
+&lt;h4&gt;Broaden Perspective&lt;/h4&gt;
+
+&lt;p&gt;Part of being a good consultant is having perspective. Clients come to us and pay us good money to bring their ideas to life. We act as navigators adeptly guiding them to their goal. It's having perspective that we can avoid the pitfalls which will undoubtedly exist in our path.&lt;/p&gt;
+
+&lt;p&gt;So where does side projects fit into all of this? If you've taken my advice and challenged yourself by implementing technologies and methods slightly above your level, you gain perspective on their benefits and pitfalls. You learn what parts of the new technology/method can bring improvement to your current process, as well as the potential pitfalls it will have on a client project.&lt;/p&gt;
+
+&lt;p&gt;The more you expose yourself to new things, the better your perspective becomes. Your ability to consult increases due to your new and broadening perspective.&lt;/p&gt;
+
+&lt;h4&gt;Refresh&lt;/h4&gt;
+
+&lt;p&gt;If you're like me, working on the same thing can get boring, and boredom can suck the life out of a client project, worse yet, adversely impact the project. As you probably already guessed, having a side project can alleviate this.&lt;/p&gt;
+
+&lt;p&gt;Think of it as taking a brief jaunt around the park. The idea here is to step away for a moment and look at something new. I buy into the idea that as humans, we get excited about new things, use this to your advantage. I promise you that when you come back, you'll feel refreshed and ready to tackle that once boring project.&lt;/p&gt;
+
+&lt;h4&gt;Set a Goal&lt;/h4&gt;
+
+&lt;p&gt;This section isn't so much a benefit, but rather something to keep in mind to maximize the benefits of having a side project.&lt;/p&gt;
+
+&lt;p&gt;Due to the nature of side projects, they are often times not taken seriously. This can limit the benefits of having a side project or worse defeat it's purpose. By setting goals, you hold yourself accountable. Keep in mind that you should break down your side project into manageable goals and not one large goal of "complete side project".&lt;/p&gt;
+
+&lt;p&gt;Setting a goal is so painfully obvious, which is why it's also so easily discarded as something you should take into consideration. I would dare to say that the success of your side project can be made or broken at this stage.&lt;/p&gt;
+
+&lt;p&gt;So, what are you going to build?&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Hodgepodge</title>
+    <link rel="alternate" href="http://blog.url.com/general/hodgepodge.html"/>
+    <id>http://blog.url.com/general/hodgepodge.html</id>
+    <published>2014-04-22T21:00:00Z</published>
+    <updated>2014-10-28T15:08:47-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This week I refocused my efforts on apprenticeship projects and recently completed a project where I had to recreate a magazine article using semantic HTML and CSS. You can view the completed project &lt;a href="http://nelsolbatalla.com/news-article-project"&gt;here&lt;/a&gt;, and the original magazine article &lt;a href="http://i.imgur.com/9L2ssY0.jpg"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Throughout the life of the project, I took notes of things I wanted to share in this blog post. Due to the randomness of my notes, I felt it was fitting to title this blog post Hodgepodge.&lt;/p&gt;
+
+&lt;h4&gt;Pseudo Elements&lt;/h4&gt;
+
+&lt;p&gt;For this particular project, I've made use of pseudo elements in areas I normally wouldn't use them. The heavy use of pseudo elements throughout this project came about when I was debating on what approach I wanted to take with the triangles (referenced below).&lt;/p&gt;
+
+&lt;p&gt;When I finally settled on using pseudo elements for the triangles, it spilled over into other parts such as the bullets, left and right isosceles triangles, and even the border separators.&lt;/p&gt;
+
+&lt;p&gt;What I found was cleaner markup using pseudo elements, this is a welcomed positive, since I'm still tweaking how I approach OOCSS and dealing with the more bloated markup. Take for example the following code for a border:&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/nbatalla03/11191627.js"&gt;&lt;/script&gt;
+
+
+&lt;p&gt;You'll notice that we have to repeat the separator class every time we want a separator, by using pseudo elements you remove that redundancy.&lt;/p&gt;
+
+&lt;p&gt;I haven't researched pseudo elements deep enough yet to counter with potential issues. I'll report back when I get more experience with pseudo elements in more diverse situations.&lt;/p&gt;
+
+&lt;h4&gt;Time Contraint&lt;/h4&gt;
+
+&lt;p&gt;Before starting any project I usually make an estimation on how long I think it will take to complete, this extensive process typically involves reading the alignment of the stars in order to get an accurate estimate. My mentor threw a curveball this time around and set the estimation for me, on a positive note I didn't have to read the alignment of the stars, on the other hand I couldn't buy myself time.&lt;/p&gt;
+
+&lt;p&gt;Stephanie knows full well that I struggle to edit down my ideas. Luckily, I noticed her intentions and made the necessary changes to account for the strict deadline. For those wondering, she gave me three days to complete this project.&lt;/p&gt;
+
+&lt;p&gt;I realized straight away that the biggest stumbling block would be the article selection. Again, I had to battle my tendency to go big and pick something that would be feasible to be completed in the allotted amount of time, while being challenged.&lt;/p&gt;
+
+&lt;p&gt;Throughout the project, I kept a short feedback loop with my mentor to simulate communication with a client making sure expectations were being met. The project's progress was going so well Stephanie threw in another curveball. I had mentioned that I did not like how the spacing of the content looked in the article and wanted to improve upon it. She suggested I make another version exhibiting the changes I would have made. I was tempted to bite the hook, but I opted instead to tell her if I had time it would be something I could tackle.&lt;/p&gt;
+
+&lt;p&gt;By resisting the urge to saying yes! I saved myself from potentially missing the deadline, since adding a second version would have been expected instead of just having the one version of the project.&lt;/p&gt;
+
+&lt;h4&gt;Arial&lt;/h4&gt;
+
+&lt;p&gt;Really quickly, I wanted to write about this annoying problem I was having using the HTML code for a &lt;a href="http://www.fileformat.info/info/unicode/char/25B6/index.htm"&gt;triangle pointing right&lt;/a&gt; and a &lt;a href="http://www.fileformat.info/info/unicode/char/25c0/index.htm"&gt;triangle pointing left&lt;/a&gt;. The issue I was running into was different triangles. Even though these HTML triangle codes were the counter to each other the left pointing triangle was more equilateral than the right pointing one. Embarrassingly, I spent an hour before I finally figured it out, and the solution was to apply Arial to it's font-family.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>News</title>
+    <link rel="alternate" href="http://blog.url.com/projects/news-article-project.html"/>
+    <id>http://blog.url.com/projects/news-article-project.html</id>
+    <published>2014-04-17T21:31:00Z</published>
+    <updated>2014-10-28T15:08:47-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html"></content>
+  </entry>
+</feed>

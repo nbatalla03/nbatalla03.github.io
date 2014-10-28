@@ -1,0 +1,276 @@
+/* line 1, ../fallback-project/stylesheets/main.css.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Base */
+/* line 6, ../fallback-project/stylesheets/main.css.scss */
+html {
+  font: normal 100% "open-sans";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility; }
+
+/* line 12, ../fallback-project/stylesheets/main.css.scss */
+body {
+  background: #1b2024;
+  color: #222;
+  padding: 0 0 3rem 0; }
+
+/* line 18, ../fallback-project/stylesheets/main.css.scss */
+h1 {
+  font-family: "open-sans";
+  font-size: 3.5rem;
+  font-weight: 700; }
+
+/* line 24, ../fallback-project/stylesheets/main.css.scss */
+p {
+  line-height: 160%;
+  margin: 2rem 0 0 0; }
+
+/* line 29, ../fallback-project/stylesheets/main.css.scss */
+.small-break {
+  color: #798a95;
+  display: block;
+  line-height: 160%; }
+
+/* line 35, ../fallback-project/stylesheets/main.css.scss */
+a {
+  color: #00B256;
+  text-decoration: none; }
+
+/* line 40, ../fallback-project/stylesheets/main.css.scss */
+a:hover {
+  text-decoration: underline; }
+
+/* line 44, ../fallback-project/stylesheets/main.css.scss */
+code {
+  font-size: 0.8rem; }
+
+/* line 48, ../fallback-project/stylesheets/main.css.scss */
+pre {
+  color: #708da4; }
+
+/* Layout */
+/* line 53, ../fallback-project/stylesheets/main.css.scss */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%; }
+
+/* line 59, ../fallback-project/stylesheets/main.css.scss */
+.column {
+  float: left;
+  margin-left: 2%; }
+  /* line 62, ../fallback-project/stylesheets/main.css.scss */
+  .column:nth-child(odd) {
+    margin-left: 0; }
+
+/* line 67, ../fallback-project/stylesheets/main.css.scss */
+.row {
+  clear: both; }
+
+/* line 71, ../fallback-project/stylesheets/main.css.scss */
+.one-half {
+  width: 49%; }
+
+/* line 75, ../fallback-project/stylesheets/main.css.scss */
+.full {
+  width: 100%; }
+
+/* line 79, ../fallback-project/stylesheets/main.css.scss */
+.welcome {
+  background: #fff;
+  padding: 3rem 0 4rem;
+  text-align: center; }
+  /* line 83, ../fallback-project/stylesheets/main.css.scss */
+  .welcome section {
+    margin: 0 auto;
+    width: 85%; }
+
+/* line 89, ../fallback-project/stylesheets/main.css.scss */
+.important {
+  border: 5px solid #ddd;
+  margin: 2rem 5rem 0;
+  padding: 2rem 2rem;
+  text-align: left; }
+  /* line 94, ../fallback-project/stylesheets/main.css.scss */
+  .important a {
+    color: #00B256; }
+    /* line 96, ../fallback-project/stylesheets/main.css.scss */
+    .important a:hover {
+      text-shadow: none; }
+  /* line 100, ../fallback-project/stylesheets/main.css.scss */
+  .important h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0 0; }
+    /* line 104, ../fallback-project/stylesheets/main.css.scss */
+    .important h2:first-child {
+      margin: 0; }
+  /* line 108, ../fallback-project/stylesheets/main.css.scss */
+  .important p {
+    color: #555;
+    margin-top: 1rem; }
+  /* line 112, ../fallback-project/stylesheets/main.css.scss */
+  .important .one-half {
+    border: 5px solid #ddd;
+    padding: 1rem; }
+    /* line 115, ../fallback-project/stylesheets/main.css.scss */
+    .important .one-half:hover {
+      border: 5px solid #00B256; }
+
+/* line 121, ../fallback-project/stylesheets/main.css.scss */
+.base {
+  border: 5px solid red;
+  overflow: hidden;
+  padding: 3rem 0; }
+  /* line 125, ../fallback-project/stylesheets/main.css.scss */
+  .base h2 {
+    color: #d1e8f2;
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+  /* line 130, ../fallback-project/stylesheets/main.css.scss */
+  .base p {
+    color: #708da4;
+    font-size: 1.5rem;
+    margin: 0; }
+
+/* line 137, ../fallback-project/stylesheets/main.css.scss */
+.fallback-list {
+  padding-bottom: 2rem; }
+  /* line 139, ../fallback-project/stylesheets/main.css.scss */
+  .fallback-list h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem; }
+  /* line 144, ../fallback-project/stylesheets/main.css.scss */
+  .fallback-list h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem; }
+  /* line 149, ../fallback-project/stylesheets/main.css.scss */
+  .fallback-list p {
+    color: #798a95;
+    margin-top: 1rem; }
+  /* line 153, ../fallback-project/stylesheets/main.css.scss */
+  .fallback-list li {
+    padding-top: 4rem;
+    position: relative; }
+    /* line 156, ../fallback-project/stylesheets/main.css.scss */
+    .fallback-list li:after {
+      border-bottom: 1px solid #2c343a;
+      padding: 4rem 0 0 0;
+      width: 100%; }
+  /* line 162, ../fallback-project/stylesheets/main.css.scss */
+  .fallback-list .one-half {
+    padding: 0 4rem; }
+
+/* line 167, ../fallback-project/stylesheets/main.css.scss */
+.heading {
+  background: #2a3238;
+  padding: 2rem 0; }
+
+/* line 173, ../fallback-project/stylesheets/main.css.scss */
+.code-example p:first-child {
+  margin: 0; }
+
+/* Modules */
+/* line 179, ../fallback-project/stylesheets/main.css.scss */
+.drop-shadow {
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1); }
+
+/* line 185, ../fallback-project/stylesheets/main.css.scss */
+.welcome-message {
+  font-weight: 200;
+  margin: 2rem 0 0 0; }
+  /* line 188, ../fallback-project/stylesheets/main.css.scss */
+  .welcome-message p {
+    font-size: 1.5rem;
+    margin: 1rem; }
+
+/* line 194, ../fallback-project/stylesheets/main.css.scss */
+.red {
+  color: #ff3822; }
+
+/* line 198, ../fallback-project/stylesheets/main.css.scss */
+.tag {
+  border: 3px solid #ff6c14;
+  border-radius: 5px;
+  color: #ff6c14;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  padding: 0.1rem 2rem;
+  text-transform: uppercase; }
+
+/* line 209, ../fallback-project/stylesheets/main.css.scss */
+.marker {
+  background: #2c343a;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 3rem;
+  position: absolute;
+  left: 4rem;
+  top: 0;
+  text-transform: uppercase; }
+
+/* line 221, ../fallback-project/stylesheets/main.css.scss */
+.no-margins p {
+  margin: 0; }
+
+/* line 225, ../fallback-project/stylesheets/main.css.scss */
+.gist-file {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
+
+/* line 230, ../fallback-project/stylesheets/main.css.scss */
+.small-text {
+  font-size: 0.8rem; }
+
+/* Clearfix */
+/* line 238, ../fallback-project/stylesheets/main.css.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 243, ../fallback-project/stylesheets/main.css.scss */
+.cf:after {
+  clear: both; }
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+  /* line 249, ../fallback-project/stylesheets/main.css.scss */
+  .one-half {
+    margin: 0;
+    width: 100%; }
+
+  /* line 254, ../fallback-project/stylesheets/main.css.scss */
+  .fallback-list .one-half {
+    padding: 0 1.5rem; }
+
+  /* line 258, ../fallback-project/stylesheets/main.css.scss */
+  .heading {
+    padding: 2rem 1.5rem; }
+
+  /* line 262, ../fallback-project/stylesheets/main.css.scss */
+  .marker {
+    left: 1.5rem; }
+
+  /* line 266, ../fallback-project/stylesheets/main.css.scss */
+  .important {
+    margin: 2rem 0 0; }
+
+  /* line 270, ../fallback-project/stylesheets/main.css.scss */
+  .code-example {
+    margin: 1rem 0 0 0; } }
+@media only screen and (max-width: 480px) {
+  /* line 276, ../fallback-project/stylesheets/main.css.scss */
+  .welcome-message {
+    font-size: 1.5rem; } }

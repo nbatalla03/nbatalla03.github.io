@@ -1,0 +1,233 @@
+/* line 1, ../portfolio/stylesheets/main.css.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 5, ../portfolio/stylesheets/main.css.scss */
+html {
+  font-size: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 11, ../portfolio/stylesheets/main.css.scss */
+body {
+  background: #eee;
+  font: normal 100% "open-sans"; }
+
+/* line 16, ../portfolio/stylesheets/main.css.scss */
+input[type=email], input[type=submit] {
+  outline: none; }
+
+/* line 20, ../portfolio/stylesheets/main.css.scss */
+input[type=email] {
+  background: #eee;
+  border: 3px solid #e5e5e5;
+  border-radius: 5px;
+  color: #888;
+  font: 700 1rem "open-sans";
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  width: 100%; }
+
+/* line 31, ../portfolio/stylesheets/main.css.scss */
+h1, h2, h3 {
+  color: #333;
+  font-family: "proxima-nova"; }
+
+/* line 36, ../portfolio/stylesheets/main.css.scss */
+h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0 1rem 0; }
+
+/* line 41, ../portfolio/stylesheets/main.css.scss */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700; }
+
+/* line 46, ../portfolio/stylesheets/main.css.scss */
+h3 {
+  color: #55bf72;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #fff;
+  text-transform: uppercase; }
+
+/* line 54, ../portfolio/stylesheets/main.css.scss */
+.logo {
+  max-width: 186px;
+  width: 100%; }
+
+/* line 59, ../portfolio/stylesheets/main.css.scss */
+section {
+  background: #55bf72;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50%;
+  z-index: 10; }
+
+/* line 70, ../portfolio/stylesheets/main.css.scss */
+.fixed {
+  background: red;
+  position: fixed;
+  width: 100%; }
+
+/* line 76, ../portfolio/stylesheets/main.css.scss */
+p {
+  color: #888;
+  font-size: 1.5rem; }
+
+/* line 81, ../portfolio/stylesheets/main.css.scss */
+aside {
+  background: #fff;
+  height: 100%;
+  padding: 1.6rem 3rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50%; }
+
+/* line 91, ../portfolio/stylesheets/main.css.scss */
+.sidebar {
+  position: relative;
+  height: 100%; }
+
+/* line 96, ../portfolio/stylesheets/main.css.scss */
+.row {
+  clear: both; }
+
+/* line 100, ../portfolio/stylesheets/main.css.scss */
+.project-list {
+  left: 50%;
+  padding: 1.6rem 2rem;
+  position: relative;
+  width: 50%; }
+  /* line 105, ../portfolio/stylesheets/main.css.scss */
+  .project-list li {
+    background: #fff;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 1.6rem 0 0 0;
+    overflow: hidden;
+    width: 100%; }
+    /* line 114, ../portfolio/stylesheets/main.css.scss */
+    .project-list li:first-child {
+      margin: 0 0 0 0; }
+
+/* line 120, ../portfolio/stylesheets/main.css.scss */
+.small-fonts {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0 0; }
+
+/* line 125, ../portfolio/stylesheets/main.css.scss */
+.alert {
+  color: #ff3030; }
+
+/* line 129, ../portfolio/stylesheets/main.css.scss */
+.button {
+  background: #ed531b;
+  border: none;
+  border-radius: 5px;
+  -moz-box-shadow: 0 4px 0 0 #ca3501;
+  -webkit-box-shadow: 0 4px 0 0 #ca3501;
+  box-shadow: 0 4px 0 0 #ca3501;
+  color: #fff;
+  cursor: pointer;
+  font: 700 1.5rem "proxima-nova";
+  padding: 1rem 0;
+  width: 100%; }
+  /* line 141, ../portfolio/stylesheets/main.css.scss */
+  .button:hover {
+    background: #f5551e; }
+
+/* line 146, ../portfolio/stylesheets/main.css.scss */
+.project-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  position: relative;
+  width: 100%; }
+
+/* line 155, ../portfolio/stylesheets/main.css.scss */
+.description {
+  padding: 1rem; }
+  /* line 157, ../portfolio/stylesheets/main.css.scss */
+  .description p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0 0 0; }
+  /* line 161, ../portfolio/stylesheets/main.css.scss */
+  .description h2 {
+    position: relative; }
+    /* line 163, ../portfolio/stylesheets/main.css.scss */
+    .description h2:before {
+      background: #55bf72;
+      content: "";
+      height: 1rem;
+      position: absolute;
+      left: -16px;
+      margin: 6px 0 0 0;
+      width: 0.3rem; }
+
+/* line 175, ../portfolio/stylesheets/main.css.scss */
+.link-holder {
+  background: #e9e9e9;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid #e5e5e5;
+  padding: 0.8rem 0;
+  text-align: center; }
+  /* line 181, ../portfolio/stylesheets/main.css.scss */
+  .link-holder a {
+    border: 3px solid #ed531b;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 0 0 #fff;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff;
+    color: #ed531b;
+    display: inline-block;
+    font-family: "proxima-nova";
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff; }
+    /* line 194, ../portfolio/stylesheets/main.css.scss */
+    .link-holder a:hover {
+      border: 3px solid #aaa;
+      color: #aaa; }
+
+/* line 201, ../portfolio/stylesheets/main.css.scss */
+#mc_embed_signup {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+  /* line 209, ../portfolio/stylesheets/main.css.scss */
+  aside, .project-list, #mc_embed_signup {
+    width: 100%;
+    position: relative; }
+
+  /* line 214, ../portfolio/stylesheets/main.css.scss */
+  aside {
+    padding: 1.6rem 2rem; }
+
+  /* line 218, ../portfolio/stylesheets/main.css.scss */
+  #mc_embed_signup {
+    margin: 2rem 0 0 0; }
+
+  /* line 222, ../portfolio/stylesheets/main.css.scss */
+  .project-list {
+    left: 0; } }
+@media only screen and (max-width: 401px) {
+  /* line 228, ../portfolio/stylesheets/main.css.scss */
+  aside, .project-list {
+    padding: 1.6rem 1rem; }
+
+  /* line 232, ../portfolio/stylesheets/main.css.scss */
+  .small-fonts {
+    font-size: 0.7rem; } }

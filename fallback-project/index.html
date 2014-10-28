@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Structure & Fallback Project</title>
+    <link href="/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="./stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//use.typekit.net/lqb2ptd.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row welcome drop-shadow">
+      <div class="container">
+        <section>
+          <img src="images/brand-logo.png">
+          <div class="welcome-message">
+            <h1>Structure & Fallback Project</h1>
+            <p>How I structure my projects and handle HTML5 and CSS3 fallbacks.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <ul class="fallback-list cf">
+        <li class="cf">
+          <div class="marker">The Structure</div>
+
+          <section>
+            <div class="one-half column">
+              <h3>structure overview</h3>
+              <p>For a basic project, I use a basic setup. The root directory will contain a <strong>js</strong>, <strong>image</strong>, and <strong>stylesheets</strong> folder. Within the root folder I'll start off with a single <strong>index.html</strong> file, I'll add important project pages in the root as the project progresses.</p>
+            </div>
+
+            <div class="one-half column code-example no-margins">
+              <p><strong>root</strong></p>
+              <p>|__<strong>images</strong></p>
+              <p>|__<strong>js</strong></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__main.js</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__modernizr-2.8.0.min.js</p>
+              <p>|__<strong>stylesheets</strong></p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__main.css</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__reset.css</p>
+              <p>|__index.html</p>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <section>
+            <div class="one-half column">
+              <h3>index.html</h3>
+              <p>Nothing fancy here, my index.html setup is pretty standard. A few things to point out, <strong>line 2</strong> has a no-js class on the html tag, this is used by Modernizr (more on this later). <strong>Line 11</strong> links to your Modernizr js file. <strong>Line 15</strong> links to a jQuery CDN, while <strong>line 16</strong> links to a local jQuery js file incase the CDN can't be reached. See, pretty standard.</p>
+            </div>
+
+            <div class="one-half column code-example">
+              <script src="https://gist.github.com/nbatalla03/dfdae0a4e13d3036c314.js"></script>
+              <span class="small-break"><a href="https://gist.githubusercontent.com/nbatalla03/dfdae0a4e13d3036c314/raw/33d0adcee6e0b2889e33c7e51b2da27b87442cb1/gistfile1.html">View Raw</a></span>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <section>
+            <div class="one-half column">
+              <h3>reset.css</h3>
+              <p>A CSS reset resets default styling across all browsers, I liken it to working on a fresh canvas. Depending on how you like to work, a CSS reset might be a bit too aggressive, in which case you can opt for a CSS normalize.</p>
+            </div>
+
+            <div class="one-half column code-example">
+              <p><strong>My Favorite CSS Reset:</strong></p>
+              <span class="small-break"><a href="http://meyerweb.com/eric/tools/css/reset/reset200802.css">Eric Meyer's CSS</a></span>
+              <p><strong>CSS Normalize:</strong></p>
+              <span class="small-break"><a href="https://github.com/h5bp/html5-boilerplate/blob/master/css/normalize.css#">HTML5 Boilerplate CSS Normalize</a></span>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <section>
+            <div class="one-half column">
+              <h3>main.css</h3>
+              <p>I like to use as little code as possible, so my main.css starts pretty bare. I'll apply <strong>box-sizing</strong> globally, default my html element to open-sans font and set it with <strong>font-smoothing</strong>. I implement some aspects of OOCSS methodologies so I'll start with resuable chunks of code for <strong>row</strong>, <strong>column</strong>, and <strong>container</strong>.</p>
+            </div>
+
+            <div class="one-half column code-example">
+              <script src="https://gist.github.com/nbatalla03/2e58ced68ab810d0bed7.js"></script>
+              <span class="small-break"><a href="https://gist.githubusercontent.com/nbatalla03/2e58ced68ab810d0bed7/raw/17480e6b3880d726044c2f4f1371df3df1a9a3a2/gistfile1.css">View Raw</a></span>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <section>
+            <div class="one-half column">
+              <h3>main.js</h3>
+              <p>I only have three lines of code in my main.js file at the start of a new project. I place an alert function with the message <strong>"I'm working! You can delete me!"</strong>, this serves as a notification that my javascript files are linked correctly, this has saved me numerous headaches in the past wondering why none of my javascript code is working.</p>
+            </div>
+
+            <div class="one-half column code-example no-margins">
+              <p><strong>The Code:</strong></p>
+              <p>$( document ).ready(function() {</p>
+              <p>&nbsp;&nbsp;alert('I'm working! You can delete me!');</p>
+              <p>});</p>
+              <br>
+              <p><strong>Short Hand Version:</strong></p>
+              <p>$(function() {</p>
+              <p>&nbsp;&nbsp;alert('I'm working! You can delete me!');</p>
+              <p>});</p>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <section>
+            <div class="one-half column">
+              <h3>modernizr-2.8.0.min.js</h3>
+              <p>Mordernizr is a javascript library that detects the availablity of the latest HTML5 and CSS3 web technologies. To get a quick primer on Modernizr, I recommend reading <a href="http://alistapart.com/article/taking-advantage-of-html5-and-css3-with-modernizr">this</a> article. Keep in mind that Modernizr detects which HTML5 and CSS3 technologies are available, you still have to provide the <strong>fallbacks</strong> yourself.</p>
+            </div>
+
+            <div class="one-half column code-example">
+              <p><strong>Modernizr Docs:</strong></p>
+              <span class="small-break"><a href="http://modernizr.com/docs/">http://modernizr.com/docs/</a></span>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <div class="marker">Handling Fallbacks</div>
+
+          <section>
+            <div class="one-half column">
+              <h3>terminology</h3>
+              <p>I want to clear some terminology before moving forward. I've been using fallback as a catch all term. Although each aims to provide support to certain HTML5 and CSS3 technologies, the level of support as well as the way they are implemented varies.</p>
+            </div>
+
+            <div class="one-half column code-example">
+              <p><strong>What is a fallback?:</strong></p>
+              <span class="small-break">A fallback is a backup plan for when a technology is not supported. The goal is to provide a suitable replacement and not necessarily replicate the technology.</span>
+
+              <p><strong>What is a polyfill?:</strong></p>
+              <span class="small-break">A polyfill is a piece of code the provides the technology that isn't supported by the browser in a native way.</span>
+
+              <p><strong>What is a shiv?:</strong></p>
+              <span class="small-break">Shiv refers to HTML5 shiv, which is also sometimes called shim. HTML5 shiv provides support for HTML5 elements in older browsers, it runs transparently. You can get HTML5 shiv <a href="https://code.google.com/p/html5shiv/">here</a>, or select it in your Modernizr build.</span>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <section>
+            <div class="one-half column">
+              <h3>setup modernizr</h3>
+              <p>In order to detect which HTML5 or CSS3 technologies we need to provide a fallback for, we need a javascript library like Modernizr to do so. Fortunately, setup is as easy as downloading modernizr.js and placing it on your project's js folder.</p>
+              <p>Every project is different, so I recommend you only select the technologies that you will be using instead of selecting everything. With that said, Modernizr auto selects HTML5 shiv, I recommend you keep that.</p>
+            </div>
+
+            <div class="one-half column code-example">
+              <p><strong>Get Modernizr:</strong></p>
+              <span class="small-break"><a href="http://modernizr.com/download/">http://modernizr.com/download/</a></span>
+
+              <p><strong>Place In Header:</strong></p>
+              <span class="small-break">&lt;script src="js/modernizr-2.8.0.min.js"&gt;&lt;/script&gt;</span>
+              <span class="small-break small-text">* Your version number may differ.</span>
+            </div>
+          </section>
+        </li>
+
+        <li class="cf">
+          <section>
+            <div class="one-half column">
+              <h3>next steps</h3>
+              <p>If you haven't already done so, I recommend reading A List Apart's article on Modernizr, you can view that <a href="http://alistapart.com/article/taking-advantage-of-html5-and-css3-with-modernizr">here</a>.</p>
+              <p>Since you'll need to provide the fallbacks yourself, a great resource to look at is <a href="http://html5please.com/">HTML5 Please</a>. It documents the common HTML5 and CSS3 technologies that may require fallbacks, they also recommend the best ways to implement support either via fallbacks or polyfills.</p>
+            </div>
+
+            <div class="one-half column code-example">
+              <p><strong>Fallback Resources</strong>:</p>
+              <span class="small-break"><a href="http://html5please.com/">HTML5 Please</a></span>
+
+              <p><strong>Recommended Reading:</strong></p>
+              <span class="small-break"><a href="http://alistapart.com/article/taking-advantage-of-html5-and-css3-with-modernizr">A List Apart</a></span>
+              <span class="small-break"><a href="http://modernizr.com/docs/">Modernizr Docs</a></span>
+              <span class="small-break"><a href="http://remysharp.com/2010/10/08/what-is-a-polyfill/">What is a Polyfill?</a></span>
+              <span class="small-break"><a href="http://nicolasgallagher.com/yet-another-html5-fallback-strategy-for-ie/">Alternative Fallback Strategy for HTML5</a></span>
+            </div>
+          </section>
+        </li>
+      </ul>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/main.js"></script>	
+	</body>
+</html>
+

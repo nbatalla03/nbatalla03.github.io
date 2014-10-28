@@ -1,0 +1,66 @@
+/* line 1, ../spiking-stuff/stylesheets/main.css.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 5, ../spiking-stuff/stylesheets/main.css.scss */
+#action, #revert {
+  cursor: pointer; }
+
+/* Base */
+/* line 10, ../spiking-stuff/stylesheets/main.css.scss */
+html {
+  font-size: 100%;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 16, ../spiking-stuff/stylesheets/main.css.scss */
+nav {
+  background: #eee;
+  height: 48px;
+  overflow: hidden;
+  padding: 1rem 0;
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease; }
+
+/* line 25, ../spiking-stuff/stylesheets/main.css.scss */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: hidden;
+  width: 100%; }
+
+/* line 32, ../spiking-stuff/stylesheets/main.css.scss */
+.column {
+  float: left;
+  margin-left: 2%; }
+
+/* line 37, ../spiking-stuff/stylesheets/main.css.scss */
+.row {
+  display: block;
+  margin-bottom: 2rem; }
+
+/* line 42, ../spiking-stuff/stylesheets/main.css.scss */
+.one-fourth {
+  width: 23%;
+  margin-bottom: 2rem; }
+
+/* Clearfix */
+/* line 49, ../spiking-stuff/stylesheets/main.css.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 54, ../spiking-stuff/stylesheets/main.css.scss */
+.cf:after {
+  clear: both; }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  /* line 60, ../spiking-stuff/stylesheets/main.css.scss */
+  .one-fourth {
+    width: 48%; } }
